@@ -56,7 +56,7 @@ namespace WordCounter.Tests
       testFour.GetInputString("cat,cat.cats!cat");
       testFour.RepeatCounter();
       // Assert
-      Assert.AreEqual(1, testFour.WordCount);
+      Assert.AreEqual(3, testFour.WordCount);
     }
   }
 }
