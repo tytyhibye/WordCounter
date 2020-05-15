@@ -9,7 +9,7 @@ namespace WordCounter.Tests
   {
     public void Dispose()
     {
-
+      // in case it's needed.
     }
     [TestMethod]
     public void UserInput_IsUserInputWordAString_True()
