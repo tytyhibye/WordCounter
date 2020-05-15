@@ -10,8 +10,11 @@ namespace CounterEntry
       Logic frontEnd = new Logic();
       Console.WriteLine("Welcome to the Word Counter.\n\n  Please Enter a Word:");
       string inputWord = Console.ReadLine();
+      Console.WriteLine("Now enter a sentence or phrase to see if it contains the entered word:");
+      string inputString = Console.ReadLine();
       
-      frontEnd.GetInput(inputWord);
+      frontEnd.GetInputWord(inputWord);
+      frontEnd.GetInputString(inputString);
     }
 
   }
