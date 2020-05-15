@@ -16,7 +16,8 @@ namespace CounterEntry
       frontEnd.GetInputWord(inputWord);
       frontEnd.GetInputString(inputString);
       frontEnd.RepeatCounter();
-      Console.WriteLine("the word '" + frontEnd.InputWord + "' occurs in the input sentence "+ frontEnd.WordCount + " times.");
+      Console.WriteLine("\n\n\n\tthe word: '" + frontEnd.InputWord + "'");
+      Console.WriteLine("\n\n\tthe number of occurances in the input sentence: " + frontEnd.WordCount + "!");
       
     }
 
