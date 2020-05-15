@@ -12,14 +12,25 @@ namespace WordCounter.Tests
 
     }
     [TestMethod]
-    public void UserInput_IsUserInputAString_True()
+    public void UserInput_IsUserInputWordAString_True()
     {
       // Arrange
       Logic testOne = new Logic();
       // Act
-      testOne.GetInput("cat");
+      testOne.GetInputWord("cat");
       // Assert
       Assert.AreEqual(typeof(string), testOne.InputWord.GetType());
+    }
+
+    [TestMethod]
+    public void UserInput_IsUserInputSentenceAString_True()
+    {
+      // Arrange
+      Logic testTwo = new Logic();
+      // Act
+      testTwo.GetInputString("the cat was at the cathedral");
+      // Assert
+      Assert.AreEqual(typeof(string), testTwo.InputString.GetType());
     }
   }
 }
