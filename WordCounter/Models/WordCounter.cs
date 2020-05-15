@@ -7,6 +7,7 @@ namespace WordCounter.Models
   {
     public string InputWord { get; set; }
     public string[] InputString { get; set; }
+    public int WordCount { get; set; }
     
     public void GetInputWord(string inputWord)
     {
@@ -18,9 +19,15 @@ namespace WordCounter.Models
       InputString = (inputString.ToLower()).Split();
     }
 
-    // public void CompareInputs()
-    // {
-
-    // }
+    public void RepeatCounter()
+    {
+      foreach(string word in InputString)
+      {
+        if(word == InputWord)
+        {
+          WordCount += 1;
+        }
+      }
+    }
   }
 }

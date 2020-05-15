@@ -31,7 +31,19 @@ namespace WordCounter.Tests
       testTwo.GetInputString("the cat was at the cathedral");
       // Assert
       Assert.AreEqual(typeof(string[]), testTwo.InputString.GetType());
-      Console.WriteLine()
+    }
+
+    [TestMethod]
+    public void CompareInputs_ReturnsCountOfOccurencesInString_True()
+    {
+      // Arrange
+      Logic testThree = new Logic();
+      // Act
+      testThree.GetInputWord("cat");
+      testThree.GetInputString("The Cat Was At The Cathedral");
+      testThree.RepeatCounter();
+      // Assert
+      Assert.AreEqual(1, testThree.WordCount);
     }
   }
 }
