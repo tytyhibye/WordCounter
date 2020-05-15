@@ -45,5 +45,18 @@ namespace WordCounter.Tests
       // Assert
       Assert.AreEqual(1, testThree.WordCount);
     }
+
+    [TestMethod]
+    public void CompareInputs_RemovesPunctuationFromInputString_True()
+    {
+      // Arrange
+      Logic testFour = new Logic();
+      // Act
+      testFour.GetInputWord("cat");
+      testFour.GetInputString("cat,cat.cats!cat");
+      testFour.RepeatCounter();
+      // Assert
+      Assert.AreEqual(1, testFour.WordCount);
+    }
   }
 }
