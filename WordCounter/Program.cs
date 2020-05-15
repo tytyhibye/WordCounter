@@ -8,18 +8,19 @@ namespace CounterEntry
     public static void Main()
     {
       Logic frontEnd = new Logic();
+
       Console.WriteLine("Welcome to the Word Counter.\n\n  Please Enter a Word:");
       string inputWord = Console.ReadLine();
+      
       Console.WriteLine("Now enter a sentence or phrase to see if it contains the entered word:");
       string inputString = Console.ReadLine();
       
       frontEnd.GetInputWord(inputWord);
       frontEnd.GetInputString(inputString);
       frontEnd.RepeatCounter();
+      
       Console.WriteLine("\n\n\n\tthe word: '" + frontEnd.InputWord + "'");
       Console.WriteLine("\n\n\tthe number of occurances in the input sentence: " + frontEnd.WordCount + "!");
-      
     }
-
   }
 }

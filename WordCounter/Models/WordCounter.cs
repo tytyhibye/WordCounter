@@ -25,7 +25,6 @@ namespace WordCounter.Models
     {
       foreach(string word in InputString)
       {
-        Console.WriteLine(word);
         if(word == InputWord)
         {
           WordCount += 1;
