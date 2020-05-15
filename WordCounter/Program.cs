@@ -9,7 +9,19 @@ namespace WordCounterEntry
     {
       Logic frontEnd = new Logic();
 
-      Console.WriteLine("Welcome to the Word Counter.\n\n  Please Enter a Word:");
+      Console.WriteLine(@"
+          Welcome to my
+    ▄▄▌ ▐ ▄▌      ▄▄▄  ·▄▄▄▄        
+    ██· █▌▐█▪     ▀▄ █·██▪ ██       
+    ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐█· ▐█▌      
+    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌██. ██       
+     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀▀▀▀▀▀•       
+ ▄▄·       ▄• ▄▌ ▐ ▄ ▄▄▄▄▄▄▄▄ .▄▄▄  
+▐█ ▌▪▪     █▪██▌•█▌▐█•██  ▀▄.▀·▀▄ █·
+██ ▄▄ ▄█▀▄ █▌▐█▌▐█▐▐▌ ▐█.▪▐▀▀▪▄▐▀▀▄ 
+▐███▌▐█▌.▐▌▐█▄█▌██▐█▌ ▐█▌·▐█▄▄▌▐█•█▌
+·▀▀▀  ▀█▄▀▪ ▀▀▀ ▀▀ █▪ ▀▀▀  ▀▀▀ .▀  ▀");
+    Console.WriteLine("       Please enter a word:")
       string inputWord = Console.ReadLine();
       
       Console.WriteLine("Now enter a sentence or phrase to see if it contains the entered word:");
