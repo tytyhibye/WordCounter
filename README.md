@@ -23,6 +23,7 @@ Install .NET. Type "dotnet run" into your console within the program directory.
 |Program will have user input a base word|"cat"|"cat"|
 |Program will have user input a string of words to compare to base word|"the cat was at the cathedral"|repeat string|
 |Program will compare word to string to determine how many occurences take place|"cat" --> "the cat was at the cathedral"|"'cat' appears 1 time."|
+|Program will remove punctuation and capitalization from input string|"cat,cat.Cats!CAT?"|"cat cat cats cat"|
 
 
 ## Legal
