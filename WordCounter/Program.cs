@@ -8,8 +8,8 @@ namespace WordCounterEntry
     public static void Main()
     {
       Logic frontEnd = new Logic();
-      
       bool run = true;
+
       while (run == true)
       {
         Console.WriteLine(@"
@@ -27,7 +27,7 @@ namespace WordCounterEntry
         Enter:
         Console.WriteLine("       Please enter a word:");
         string inputWord = Console.ReadLine();
-        
+        System.Threading.Thread.Sleep(3000);
         Console.WriteLine("Now enter a sentence or phrase to see if it contains the entered word:");
         string inputString = Console.ReadLine();
         
@@ -35,7 +35,11 @@ namespace WordCounterEntry
         frontEnd.GetInputString(inputString);
         frontEnd.RepeatCounter();
 
-        Console.WriteLine("\n\n\n\tYour word: '" + frontEnd.InputWord + "'");
+        System.Threading.Thread.Sleep(3000);
+        Console.WriteLine("\n\n\n\tYour word: '" + inputWord + "'");
+        System.Threading.Thread.Sleep(3000);
+        Console.WriteLine("\n\nYour sentence: '" + inputString + "'");
+        System.Threading.Thread.Sleep(3000);
         Console.WriteLine("\n\nThe number of occurances in the input sentence: " + frontEnd.WordCount + "!" + "\n\n\tWould you like to try again?\n\t\t[Y/N]");
         string addNew = (Console.ReadLine().ToLower());
 
@@ -45,7 +49,9 @@ namespace WordCounterEntry
         }
         else
         {
+          System.Threading.Thread.Sleep(3000);
           Console.WriteLine("                           Thanks for Playing!");
+          System.Threading.Thread.Sleep(3000);
           Console.WriteLine(@"
 ████████████████████████████████████████████████████████████████████████████████
 ██████████████████████████████▀▀▀               ▀▀▀█████████████████████████████
