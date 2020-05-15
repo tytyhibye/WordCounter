@@ -30,7 +30,7 @@ namespace WordCounter.Tests
       // Act
       testTwo.GetInputString("the cat was at the cathedral");
       // Assert
-      Assert.AreEqual(typeof(string), testTwo.InputString.GetType());
+      Assert.AreEqual(typeof(string[]), testTwo.InputString.GetType());
     }
   }
 }
