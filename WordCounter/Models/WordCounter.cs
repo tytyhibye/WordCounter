@@ -13,7 +13,6 @@ namespace WordCounter.Models
     public void GetInputWord(string inputWord)
     {
       InputWord = inputWord.ToLower();
-      Console.WriteLine(InputWord);
     }
 
     public void GetInputString(string inputString)

@@ -1,7 +1,7 @@
 using System;
 using WordCounter.Models;
 
-namespace CounterEntry
+namespace WordCounterEntry
 {
   class Program
   {
@@ -18,7 +18,7 @@ namespace CounterEntry
       frontEnd.GetInputWord(inputWord);
       frontEnd.GetInputString(inputString);
       frontEnd.RepeatCounter();
-      
+
       Console.WriteLine("\n\n\n\tthe word: '" + frontEnd.InputWord + "'");
       Console.WriteLine("\n\n\tthe number of occurances in the input sentence: " + frontEnd.WordCount + "!");
     }
