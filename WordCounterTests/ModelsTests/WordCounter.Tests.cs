@@ -23,7 +23,7 @@ namespace WordCounter.Tests
     }
 
     [TestMethod]
-    public void UserInput_IsUserInputSentenceAString_True()
+    public void UserInput_IsUserInputSentenceAnArray_True()
     {
       // Arrange
       Logic testTwo = new Logic();
