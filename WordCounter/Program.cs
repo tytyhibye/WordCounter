@@ -45,7 +45,7 @@ namespace WordCounterEntry
         }
         else
         {
-          Console.WriteLine("                     Thanks for Playing!");
+          Console.WriteLine("                           Thanks for Playing!");
           Console.WriteLine(@"
 ████████████████████████████████████████████████████████████████████████████████
 ██████████████████████████████▀▀▀               ▀▀▀█████████████████████████████
