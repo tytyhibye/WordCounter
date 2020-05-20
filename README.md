@@ -4,7 +4,7 @@
 
 ## _Description_
 
-Word Counter is an interactive console program will return the occurences of a single word in a string of words or phrase. First it accepts an input word from the user, the user is then prompted to input a string of words or phrase. The program then dynamically calculates and returns how frequently the input word is found in the string or phrase, regardless of punctuation or case sensitivity. Pretty great right?
+Word Counter is an interactive console program that will return the occurences of a single word in a string of words or phrase. First it accepts an input word from the user, the user is then prompted to input a string of words or phrase. The program then dynamically calculates and returns how frequently the input word is found in the string or phrase, regardless of punctuation or case sensitivity. Pretty great right?
 
 ## _Setup_
 
