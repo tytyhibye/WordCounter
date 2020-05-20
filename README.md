@@ -24,7 +24,7 @@ The program will begin within your terminal. Enjoy!
 ## <a href="https://en.wikipedia.org/wiki/.NET_Core">.NET Core</a>
 ## <a href="https://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework">MSTest</a>
 
-## Specs
+## _Specs_
 
 |Behavior|Input|Output|
 |-----|-----|-----|
