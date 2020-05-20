@@ -58,5 +58,18 @@ namespace WordCounter.Tests
       // Assert
       Assert.AreEqual(3, testFour.WordCount);
     }
+
+    [TestMethod]
+    public void RepeatCounter_ReturnsTheNumberOfOccurences_True()
+    {
+      // Arrange
+      Logic testFive = new Logic();
+      // Act
+      testFive.GetInputWord("cat");
+      testFive.GetInputString("cathy the cat was at the cathedral.");
+      testFive.RepeatCounter();
+      // Assert
+      Assert.AreEqual(1, testFive.WordCount);
+    }
   }
 }

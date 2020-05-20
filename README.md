@@ -32,6 +32,7 @@ The program will begin within your terminal. Enjoy!
 |Program will have user input a string of words to compare to base word|"the cat was at the cathedral"|repeat string|
 |Program will compare word to string to determine how many occurences take place|"cat" --> "the cat was at the cathedral"|"'cat' appears 1 time."|
 |Program will remove punctuation and capitalization from input string|"cat,cat.Cats!CAT?"|"cat cat cats cat"|
+|Program will return the number of occurences of entered word in entered string|"cathy the cat was at the cathedral."|"number of occurences: 1"|
 
 
 ## _Legal_
