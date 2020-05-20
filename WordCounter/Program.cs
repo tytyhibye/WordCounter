@@ -31,7 +31,7 @@ namespace WordCounterEntry
         frontEnd.WordCount = 0;
         Console.WriteLine("       Please enter a word:");
         string inputWord = Console.ReadLine();
-        System.Threading.Thread.Sleep(3000);
+        System.Threading.Thread.Sleep(500);
         Console.WriteLine("Now enter a sentence or phrase to see if it contains the entered word:");
         string inputString = Console.ReadLine();
         
@@ -39,11 +39,11 @@ namespace WordCounterEntry
         frontEnd.GetInputString(inputString);
         frontEnd.RepeatCounter();
 
-        System.Threading.Thread.Sleep(3000);
+        System.Threading.Thread.Sleep(1200);
         Console.WriteLine("\n\n\n\tYour word: '" + inputWord + "'");
-        System.Threading.Thread.Sleep(3000);
+        System.Threading.Thread.Sleep(1200);
         Console.WriteLine("\n\nYour sentence: '" + inputString + "'");
-        System.Threading.Thread.Sleep(3000);
+        System.Threading.Thread.Sleep(2000);
         Console.WriteLine("\n\nThe number of occurances in the input sentence: " + frontEnd.WordCount + "!" + "\n\n\tWould you like to try again?\n\t\t[Y/N]");
         string addNew = (Console.ReadLine().ToLower());
 
@@ -152,7 +152,7 @@ namespace WordCounterEntry
           for (int y = -arr.Length; y < Console.WindowHeight + arr.Length; y++)
           {
             Animation.ConsoleDraw(arr, x, y);
-            Thread.Sleep(100);
+            Thread.Sleep(80);
             run = false;
           }
         }
