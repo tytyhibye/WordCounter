@@ -1,6 +1,6 @@
 [![wc-title.jpg](https://i.postimg.cc/JnGC5JPf/wc-title.jpg)](https://postimg.cc/KkSWZKXf)
 
-## by Tyler Bates (2020)
+### _Created by Tyler Bates_
 
 ## _Description_
 
