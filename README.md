@@ -15,7 +15,6 @@ Word Counter is an interactive console program that will return the occurences o
 ```
 $ dotnet run
 ```
-<br>
 The program will begin within your terminal. Enjoy!
 
 ## _Technology Used_
