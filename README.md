@@ -9,7 +9,7 @@ Word Counter is an interactive console program that will return the occurences o
 ## _Setup_
 
 - Clone this projects repository into your local directory following <a href="https://www.linode.com/docs/development/version-control/how-to-install-git-and-clone-a-github-repository/">these</a> instructions.<br>
-- Install .NETCore using <a href="https://docs.microsoft.com/en-us/dotnet/core/install/runtime?pivots=os-windows">this</a> link.<br>
+- Install .NET Core using <a href="https://docs.microsoft.com/en-us/dotnet/core/install/runtime?pivots=os-windows">this</a> link.<br>
 - In your terminal, navigate to the "WordCounter" directory within the project folder.<br>
 - From within this directory, enter the following into your terminal:<br>
 ```
