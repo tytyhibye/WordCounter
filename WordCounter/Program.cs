@@ -1,6 +1,5 @@
 using CounterAnimation.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using WordCounter.Models;
@@ -29,6 +28,7 @@ namespace WordCounterEntry
   ▐███▌▐█▌.▐▌▐█▄█▌██▐█▌ ▐█▌·▐█▄▄▌▐█ █▌
   ·▀▀▀  ▀█▄▀▪ ▀▀▀ ▀▀ █▪ ▀▀▀  ▀▀▀ .▀  ▀");
         Enter:
+        frontEnd.WordCount = 0;
         Console.WriteLine("       Please enter a word:");
         string inputWord = Console.ReadLine();
         System.Threading.Thread.Sleep(3000);
@@ -57,7 +57,29 @@ namespace WordCounterEntry
           Console.CursorVisible = false;
 
           var arr = new[]
-          {   
+
+
+          {
+@"                                    ciao                                        ", 
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",
+@"                                                                                ",  
 @"████████████████████████████████████████████████████████████████████████████████",
 @"██████████████████████████████▀▀▀               ▀▀▀█████████████████████████████",
 @"█████████████████████████▀   ▄▄▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄▄   ▀████████████████████████",

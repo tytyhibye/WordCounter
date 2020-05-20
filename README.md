@@ -4,16 +4,20 @@
 
 ## Description
 
-This program will take user input for a word, and then another input string of words, and return how frequently the input words is found in the input string.
+This interactive console program will take a user input word, then prompt the user to input a string of words (a phrase). The program then dynamically calculates and returns how frequently the input word is found in the string or phrase.
 
 ## Setup
 
-Install .NET. Type "dotnet run" into your console within the program directory.
+- Clone this project repository into your local directory following <a href="https://www.linode.com/docs/development/version-control/how-to-install-git-and-clone-a-github-repository/">these</a> instructions.<br>
+- Install .NETCore using <a href="https://docs.microsoft.com/en-us/dotnet/core/install/runtime?pivots=os-windows">this</a> link.<br>
+- In your terminal, navigate to the "WordCounter" directory within the project folder.<br>
+- Type "dotnet run" into your terminal from within this directory and hit ENTER.<br>
+- The program will begin within your terminal. Enjoy!
 
 ## Technology
 
 #### C#
-#### .NET
+#### .NETCore
 #### MSTest
 
 ## Specs
@@ -30,7 +34,7 @@ Install .NET. Type "dotnet run" into your console within the program directory.
 
 #### MIT License
 
-### Copyright (c) 2020 Tyler Bates
+### Copyright (c) 2020 Tyler Bates @ Epicodus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -25,7 +25,7 @@ namespace CounterAnimation.Models
       select new
       {
         Text = new String(line.Skip(trimLeft).Take(Math.Min(Console.WindowWidth - x, line.Length - trimLeft)).ToArray()),
-         X = x,
+        X = x,
         Y = y++
       };
 
